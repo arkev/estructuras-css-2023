@@ -1,0 +1,23 @@
+*{
+    color: white;
+}
+header, footer{
+    height: 200px;
+}
+
+article{
+    height: auto;
+    background-color:turquoise;
+}
+
+header{
+    background-color:teal;
+}
+
+main > article > header{
+    background-color:turquoise;
+}
+
+footer{
+    background-color:rgb(1, 66, 66);
+}
