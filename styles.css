@@ -1,23 +1,52 @@
+body{
+    font-size: 16px;
+}
 *{
     color: white;
+    box-sizing: border-box;
 }
 header, footer{
     height: 200px;
+    padding: 1em;
 }
 
 article{
     height: auto;
     background-color:turquoise;
+    padding: 1em;
+    margin-bottom: 1em;
 }
 
-header{
+body > header{
     background-color:teal;
+    margin-left: 20%;
+    margin-bottom: 1em;
+}
+
+nav{
+    width: 20%;
+    position: absolute;
+    height: 600px;
+    left: 0;
+    top: 0;
+    background-color:rgb(10, 107, 107);
+    padding: 1em;
 }
 
 main > article > header{
     background-color:turquoise;
 }
 
+main{
+    margin-left: 20%;
+    margin-bottom: 110px;
+}
+
 footer{
     background-color:rgb(1, 66, 66);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
 }
