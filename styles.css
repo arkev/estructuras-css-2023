@@ -51,17 +51,20 @@ footer{
     main > header{
         background-color: blue;
     }
+    .contenedor{
+        display:flex;
+        gap:1em;
+        flex-flow: row wrap;
+        flex: 1 0 100%;
+        align-items:flex-start;
+    }
     nav{
-        display:inline-block;
-        width: 20%;
+        flex: 1 0 0;
         height: 600px;
-        margin-right:1%;
         background-color: rgb(2, 2, 151);
     }
     main{
-        display:inline-block;
-        width: 78%;
-        vertical-align: top;
+        flex: 4 0 0;
     }
     article{
         background-color:rgb(1, 1, 201);
@@ -80,6 +83,9 @@ footer{
     /*Aquí inician los estilos para laptop*/
     main > header{
         background-color:rgb(1, 105, 105);
+    }
+    .contenedor{
+        flex-direction:row-reverse;
     }
     nav{
         background-color: darkcyan;
