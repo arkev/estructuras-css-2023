@@ -52,19 +52,14 @@ footer{
         background-color: blue;
     }
     .contenedor{
-        display:flex;
-        gap:1em;
-        flex-flow: row wrap;
-        flex: 1 0 100%;
-        align-items:flex-start;
+       
     }
     nav{
-        flex: 1 0 0;
         height: 600px;
         background-color: rgb(2, 2, 151);
     }
     main{
-        flex: 4 0 0;
+        
     }
     article{
         background-color:rgb(1, 1, 201);

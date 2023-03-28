@@ -3,47 +3,48 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Mi blog</title>
+	<link rel="stylesheet" href="flexboxgrid.min.css">
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<section class="contenedor">
-	<nav>
-		<h1>Navegación</h1>
-		<ul>
-			<li><a href="#">Inicio</a></li>
-			<li><a href="#">Acerca de</a></li>
-			<li><a href="#">Contacto</a></li>
-		</ul>
-	</nav>
+	<section class="contenedor row">
+		<nav class="col-xs-12 col-sm-3 col-md-2">
+			<h1 class="box">Navegación</h1>
+			<ul class="box">
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Acerca de</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
 	
-	<main>
-		<header>
-			<h1>Mi blog</h1>
-		</header>
-		<article>
-			<header>
-				<h2>Título de la entrada</h2>
-				<p>Fecha de publicación: 1 de febrero de 2023</p>
+		<main class="col-xs-12 col-sm-9 col-md-10">
+			<header class="box">
+				<h1>Mi blog</h1>
 			</header>
-			<p>Contenido de la entrada...</p>
-		</article>
+			<article class="box">
+				<header>
+					<h2>Título de la entrada</h2>
+					<p>Fecha de publicación: 1 de febrero de 2023</p>
+				</header>
+				<p>Contenido de la entrada...</p>
+			</article>
 
-		<article>
-			<header>
-				<h2>Otro título de entrada</h2>
-				<p>Fecha de publicación: 28 de enero de 2023</p>
-			</header>
-			<p>Contenido de la entrada...</p>
-		</article>
+			<article class="box">
+				<header>
+					<h2>Otro título de entrada</h2>
+					<p>Fecha de publicación: 28 de enero de 2023</p>
+				</header>
+				<p>Contenido de la entrada...</p>
+			</article>
 
-        <article>
-			<header>
-				<h2>Otro título de entrada</h2>
-				<p>Fecha de publicación: 16 de febrero de 2023</p>
-			</header>
-			<p>Contenido de la entrada...</p>
-		</article>
-	</main>
+			<article class="box">
+				<header>
+					<h2>Otro título de entrada</h2>
+					<p>Fecha de publicación: 16 de febrero de 2023</p>
+				</header>
+				<p>Contenido de la entrada...</p>
+			</article>
+		</main>
 	</section>
 
 	<footer>
